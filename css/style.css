@@ -2755,5 +2755,82 @@ form textarea {
 
 .card-img-top {
   height: 300px !important;
-  object-fit: cover;
+  object-fit: fill;
+}
+
+/* Home About Section */
+.home-welcome {
+  background-color: #f5f5f5;
+  padding-bottom: 5em;
+  margin-top: -2em;
+}
+.info-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 0;
+}
+
+.info-1 h1 {
+  text-transform: uppercase;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.info-1 p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #4d4d4d;
+  font-weight: 300;
+}
+
+.info-1-para {
+  width: 50%;
+}
+.info-1-img {
+  width: 47.5%;
+}
+
+.info-1-image {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 990px) {
+  .info-1 {
+    flex-direction: column;
+  }
+
+  .info-1-para {
+    width: 100%;
+    padding: 1em 0;
+  }
+
+  .info-1-img {
+    width: 100%;
+  }
+  .info-1 p {
+    font-size: 17px;
+  }
+}
+
+/* To Do Section */
+.to-do {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-bottom: 5em;
+}
+
+.todo-images h2 {
+  padding: 1em;
+}
+
+@media (min-width: 990px) {
+  .to-do-img {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .todo-images {
+    width: 30%;
+  }
 }
