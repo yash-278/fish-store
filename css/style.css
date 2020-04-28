@@ -2577,6 +2577,7 @@ article.single-post p {
 
 .about-content p {
   line-height: 30px;
+  font-size: 1rem;
 }
 
 .counter-content i {
@@ -2833,4 +2834,10 @@ form textarea {
   .todo-images {
     width: 30%;
   }
+}
+
+/* About page */
+
+.about-us-2 {
+  margin-top: 2em;
 }
