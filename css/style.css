@@ -2841,3 +2841,18 @@ form textarea {
 .about-us-2 {
   margin-top: 2em;
 }
+
+/* Logo */
+
+.logo-container {
+  height: 100px;
+  width: 100px;
+}
+.logo {
+  object-fit: cover !important;
+  width: 100%;
+}
+
+.navigation {
+  padding: 0;
+}
