@@ -2856,3 +2856,14 @@ form textarea {
 .navigation {
   padding: 0;
 }
+
+/* Logo-Bottom */
+.logo-bottom {
+  object-fit: contain;
+  width: 50%;
+}
+
+/* Button */
+.btn-phone {
+  margin-bottom: 1em;
+}
