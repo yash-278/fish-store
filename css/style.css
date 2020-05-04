@@ -2819,6 +2819,8 @@ form textarea {
   text-align: center;
   background-color: #f5f5f5;
   padding-bottom: 5em;
+  padding-top: 5em;
+  margin-top: -5em;
 }
 
 .todo-images h2 {
